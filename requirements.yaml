@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "For bouncy, playful animations, drag interactions, and layout transitions"
+  "@dnd-kit/core": "For robust drag and drop functionality that works on both desktop and touch devices"
+  "@dnd-kit/utilities": "Helper functions for dnd-kit"
+  "canvas-confetti": "For the celebration effect at the end of a good game"
+  "@types/canvas-confetti": "TypeScript definitions for canvas-confetti"
+
+images:
+  - path: "artifacts/waste-sort-game/public/images/bg-pattern.png"
+    description: "A soft, playful repeating pattern of subtle leaves, stylized recycling symbols, and nature elements in very light pastel green on a white background, extremely low contrast/opacity, suitable as a subtle website background"
+    aspect_ratio: "16:9"
+
+notes:
+  - "This is a fully client-side application. No backend API integration is required."
+  - "State is managed entirely in React Context."
+  - "Game relies heavily on drag-and-drop mechanics which must work seamlessly on mobile touch devices."

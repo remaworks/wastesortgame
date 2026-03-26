@@ -1,0 +1,5 @@
+node_modules
+.replit-artifact
+build_error.log
+package-lock.json
+dist
